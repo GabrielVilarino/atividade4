@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.card{
+    width: 384px;
+    height: 454px;
+    border: 1px rgb(175, 173, 173) solid;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+}
+
+.card button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.card2 {
+    background-color: #1E293B;
+}
+
+.card p:first-child{
+    margin-bottom: 20px;
+    color: #7C3AED;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
+
+.conteudo1 button,
+.conteudo3 button {
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+
+
+.conteudo1 button:hover,
+.conteudo3 button:hover {
+    background-color: #1E293B;
+    color: #fff;
+}
+
+.conteudo2 button{
+    background-color: #996DFF;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.conteudo2 button:hover{
+    background-color: #7C3AED;
+}
+
+.line{
+    border-top: 2px solid #E2E8F0;
+    margin: 20px 0;
+}
+
+.conteudo1, .conteudo2, .conteudo3{
+    width: 100%;
+}
+
+.essentials{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #1E293B;
+    font-size: 24px;
+    align-items: center;
+}
+
+.essentials p{
+    font-size: 16px;
+}
+
+.essentials span{
+    font-weight: 700;
+}
+
+.ultimate{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 24px;
+    align-items: center;
+}
+
+.ultimate p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.ultimate span{
+    font-weight: 700;
+}
+
+.conteudo3 h3{
+    margin-bottom: 30px;
+    color: #1E293B;
+    font-size: 24px;
+}
+
+.p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.card2 .span{
+    position: absolute;
+    left: 46.5%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 12px;
+    font-weight: 700;
+    color: #0F172A;
+    background-color: #FBA94C;
+    width: 120px;
+    padding: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    transform: translateY(-40px);   
+}
+
+.card2 p{
+    color: #fff;
+}
+
+
+@media (max-width: 810px){
+    .cards {
+        flex-direction: column;
+    }
+}
